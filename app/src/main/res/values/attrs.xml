@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义属性-->
+    <declare-styleable name="MyCustomView">
+        <!--dimension是一个包含单位（dp、sp、px等）的尺寸，可用于定义视图的宽度、字号等。-->
+        <attr name="default_size" format="dimension" />
+        <attr name="default_color" format="color" />
+    </declare-styleable>
+</resources>
